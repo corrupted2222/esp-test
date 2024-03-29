@@ -54,7 +54,7 @@ TextButton_2.TextSize = 14.000
 
 -- Scripts:
 
-local function OIHFM_fake_script() -- TextButton.LocalScript 
+local function JZAFPMM_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local TextButton = script.Parent -- Assuming this script is inside a TextButton
@@ -125,34 +125,35 @@ local function OIHFM_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(OIHFM_fake_script)()
-local function HTSXMT_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(JZAFPMM_fake_script)()
+local function HMOVQV_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	-- Function to create a billboard for a player
 	local function createPlayerBillboard(player)
-		-- Ensure the player has a character
-		if player and player.Character then
-			-- Create BillboardGui
-			local billboardGui = Instance.new("BillboardGui")
-			billboardGui.Parent = player.Character.Head
-			billboardGui.Size = UDim2.new(0, 100, 0, 50)
-			billboardGui.StudsOffset = Vector3.new(0, 3, 0) -- Adjust height offset
+		-- Get or create the ScreenGui for the player
+		local playerGui = player:FindFirstChildOfClass("PlayerGui") or Instance.new("PlayerGui")
+		playerGui.Parent = player
 	
-			-- Create TextLabel for player's name
-			local nameLabel = Instance.new("TextLabel")
-			nameLabel.Parent = billboardGui
-			nameLabel.Size = UDim2.new(1, 0, 1, 0)
-			nameLabel.Text = player.Name
-			nameLabel.TextScaled = true
-			nameLabel.BackgroundTransparency = 1
-			nameLabel.TextColor3 = Color3.new(1, 1, 1) -- White text color
+		-- Create BillboardGui
+		local billboardGui = Instance.new("BillboardGui")
+		billboardGui.Parent = playerGui
+		billboardGui.Size = UDim2.new(0, 100, 0, 50)
+		billboardGui.StudsOffset = Vector3.new(0, 3, 0) -- Adjust height offset
 	
-			-- Make BillboardGui always face the camera
-			game:GetService("RunService").RenderStepped:Connect(function()
-				billboardGui.CFrame = CFrame.new(billboardGui.CFrame.Position, game.Workspace.CurrentCamera.CFrame.Position)
-			end)
-		end
+		-- Create TextLabel for player's name
+		local nameLabel = Instance.new("TextLabel")
+		nameLabel.Parent = billboardGui
+		nameLabel.Size = UDim2.new(1, 0, 1, 0)
+		nameLabel.Text = player.Name
+		nameLabel.TextScaled = true
+		nameLabel.BackgroundTransparency = 1
+		nameLabel.TextColor3 = Color3.new(1, 1, 1) -- White text color
+	
+		-- Make BillboardGui always face the camera
+		game:GetService("RunService").RenderStepped:Connect(function()
+			billboardGui.CFrame = CFrame.new(billboardGui.CFrame.Position, game.Workspace.CurrentCamera.CFrame.Position)
+		end)
 	end
 	
 	-- Function to handle button click
@@ -171,4 +172,4 @@ local function HTSXMT_fake_script() -- TextButton_2.LocalScript
 	button.MouseButton1Click:Connect(onButtonClick)
 	
 end
-coroutine.wrap(HTSXMT_fake_script)()
+coroutine.wrap(HMOVQV_fake_script)()
