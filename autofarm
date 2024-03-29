@@ -1,0 +1,26 @@
+--checkpoint 1--
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(107.297256, 3.45592833, -144.410187, 0.993303657, 0.000134881717, -0.115532942, -0.000135791022, 1, 0, 0.115532942, 1.56883361e-05, 0.993303657)
+wait(0.5)
+--checkpoint 2--
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(107.157486, 3.51246786, -386.363129, 0.999806464, -0.000173265595, -0.0196730178, 0.000173299137, 1, -2.0215939e-22, 0.0196730178, -3.40931706e-06, 0.999806464)
+wait(0.5)
+--checkpoint 3--
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(107.906998, 3.52529693, -558.569763, 0.999496698, -7.32002809e-05, 0.0317225941, 7.32371409e-05, 1, 1.86751358e-13, -0.0317225941, 2.32327193e-06, 0.999496698)
+wait(0.5)
+--checkpoint 4--
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(106.374634, 3.5178287, -703.507385, 0.970338821, -1.17419961e-06, 0.241749004, 1.21009236e-06, 1, 0, -0.241749004, 2.9253863e-07, 0.970338821)
+wait(0.5)
+--checkpoint 5--
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(107.448151, 3.51207614, -863.894348, 0.999901593, 5.18303978e-07, 0.0140288295, -5.18354966e-07, 1, 0, -0.0140288295, -7.27191329e-09, 0.999901593)
+wait(0.5)
+--checkpoint 6--
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(107.070923, 3.52695751, -1044.91675, 0.965678632, -2.23505249e-05, -0.259739846, 2.31448885e-05, 1, 8.97676305e-20, 0.259739846, -6.01164993e-06, 0.965678632)
+wait(0.5)
+--checkpoint 7--
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(107.71167, 3.45540738, -1322.51147, 0.996465802, -0.000180272502, 0.0839995146, 0.000180911869, 1, 1.04030964e-10, -0.0839995146, 1.51964059e-05, 0.996465802)
+wait(0.5)
+--checkpoint 8--
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(107.867088, 3.51137304, -1535.38086, 0.992662132, 4.95554268e-05, -0.12092118, -4.99217458e-05, 1, 4.67561753e-13, 0.12092118, 6.03659601e-06, 0.992662132)
+wait(0.5)
+--checkpoint 9--
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(106.172554, 3.50433016, -1682.31335, 0.98742336, 4.62728858e-05, -0.158098415, -4.68622566e-05, 1, 5.86898985e-24, 0.158098415, 7.40884843e-06, 0.98742336)
